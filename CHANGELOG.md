@@ -1,7 +1,7 @@
 # Change Log
 
 ## [1.0.2]
-w
+
 - added 'tk-html-bt-panel-default'
 - added 'tk-html-bt-panel-info'
 - added 'tk-html-bt-panel-warning'
