@@ -17,6 +17,13 @@ none
 
 ## Release Notes
 
+### 1.0.1
+```
+added:
+    'tk-html-bt-nab^vbar-dark': Creates a dark navigation bar using Bootstrap and jquery
+
+```
+
 ### 1.0.0
 initial release
 

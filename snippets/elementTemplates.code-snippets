@@ -1,6 +1,6 @@
 {
     "Import Bootstrap and jquery": {
-        "prefix": "tk-html-bt-import",
+        "prefix": ["tks-hbi","tk-html-bt-import"],
         "body": [
             "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css\">",
             "<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>",
@@ -9,7 +9,7 @@
         "description": "imports Bootstrap and jquery"
     },
     "Bootstrap primary-panel": {
-        "prefix": "tk-html-bt-panel-primary",
+        "prefix": ["tks-gbpp","tk-html-bt-panel-primary"],
         "body": [
             "<div class=\"panel panel-primary\">",
             "    <div class=\"panel-heading\">panel-heading</div>",
@@ -21,7 +21,34 @@
         "description": "Creates a primary-color Panel using Bootstrap and jquery"
     },
     "Bootstrap dark navbar":{
-        "prefix": "tk-html-bt-navbar-dark",
-        "body": []
+        "prefix": ["tks-hbnd","tk-html-bt-navbar-dark"],
+        "body": [
+                "<nav class=\"navbar navbar-inverse\">",
+                "    <div class=\"navbar-brand\">brand</div>",
+            "    <ul class=\"nav navbar-nav\">",
+            "      <li><a href=\"#\">Link</a></li>",
+            "",
+            "      <li class=\"dropdown\">",
+            "        <a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\">Page 1",
+            "        <span class=\"caret\"></span></a>",
+            "        <ul class=\"dropdown-menu\">",
+            "          <li><a href=\"#\">Page 1-1</a></li>",
+            "          <li><a href=\"#\">Page 1-2</a></li>",
+            "          <li><a href=\"#\">Page 1-3</a></li>",
+            "        </ul>",
+            "      </li>",
+            "",
+            "    </ul>",
+            "",
+            "    <form class=\"navbar-form navbar-left\" action=\"/action_page.php\">",
+            "        <div class=\"form-group\">",
+            "            <input type=\"text\" class=\"form-control\" placeholder=\"Search\">",
+            "        </div>",
+            "        <button type=\"submit\" class=\"btn btn-default\">Submit</button>",
+            "    </form>",
+            "",
+            "    <p class=\"navbar-text\">Some text</p>",
+            "</nav>"
+        ]
     }
 }
