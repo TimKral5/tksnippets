@@ -1,11 +1,7 @@
 # Change Log
 
-All notable changes to the "tksnippets" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
 ## [1.0.2]
-
+w
 - added 'tk-html-bt-panel-default'
 - added 'tk-html-bt-panel-info'
 - added 'tk-html-bt-panel-warning'
