@@ -20,6 +20,66 @@
         ],
         "description": "Creates a primary-color Panel using Bootstrap and jquery"
     },
+    "Bootstrap default-panel": {
+        "prefix": ["tks-gbpd","tk-html-bt-panel-default"],
+        "body": [
+            "<div class=\"panel panel-default\">",
+            "    <div class=\"panel-heading\">panel-heading</div>",
+            "    <div class=\"panel-body\">",
+            "        ${TM_SELECTED_TEXT:panel-body}",
+            "    </div>",
+            "  </div>"
+        ],
+        "description": "Creates a default-color Panel using Bootstrap and jquery"
+    },
+    "Bootstrap success-panel": {
+        "prefix": ["tks-gbps","tk-html-bt-panel-success"],
+        "body": [
+            "<div class=\"panel panel-success\">",
+            "    <div class=\"panel-heading\">panel-heading</div>",
+            "    <div class=\"panel-body\">",
+            "        ${TM_SELECTED_TEXT:panel-body}",
+            "    </div>",
+            "  </div>"
+        ],
+        "description": "Creates a success-color Panel using Bootstrap and jquery"
+    },
+    "Bootstrap info-panel": {
+        "prefix": ["tks-gbpi","tk-html-bt-panel-info"],
+        "body": [
+            "<div class=\"panel panel-primary\">",
+            "    <div class=\"panel-heading\">panel-heading</div>",
+            "    <div class=\"panel-body\">",
+            "        ${TM_SELECTED_TEXT:panel-body}",
+            "    </div>",
+            "  </div>"
+        ],
+        "description": "Creates a info-color Panel using Bootstrap and jquery"
+    },
+    "Bootstrap warning-panel": {
+        "prefix": ["tks-gbpw","tk-html-bt-panel-warning"],
+        "body": [
+            "<div class=\"panel panel-warning\">",
+            "    <div class=\"panel-heading\">panel-heading</div>",
+            "    <div class=\"panel-body\">",
+            "        ${TM_SELECTED_TEXT:panel-body}",
+            "    </div>",
+            "  </div>"
+        ],
+        "description": "Creates a warning-color Panel using Bootstrap and jquery"
+    },
+    "Bootstrap danger-panel": {
+        "prefix": ["tks-gbpda","tk-html-bt-panel-danger"],
+        "body": [
+            "<div class=\"panel panel-danger\">",
+            "    <div class=\"panel-heading\">panel-heading</div>",
+            "    <div class=\"panel-body\">",
+            "        ${TM_SELECTED_TEXT:panel-body}",
+            "    </div>",
+            "  </div>"
+        ],
+        "description": "Creates a danger-color Panel using Bootstrap and jquery"
+    },
     "Bootstrap dark navbar":{
         "prefix": ["tks-hbnd","tk-html-bt-navbar-dark"],
         "body": [
