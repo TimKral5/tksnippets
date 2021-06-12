@@ -2,6 +2,7 @@
     "name": "tksnippets",
     "author": {"name": "Tim Kral"},
     "publisher": "TimKral",
+    "repository": {"url": "https://github.com/TimKral5/tksnippets"},
     "displayName": "TkSnippets",
     "description": "Simple HTML Snippet generator",
     "version": "1.0.0",

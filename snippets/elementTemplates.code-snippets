@@ -19,5 +19,9 @@
             "  </div>"
         ],
         "description": "Creates a primary-color Panel using Bootstrap and jquery"
+    },
+    "Bootstrap dark navbar":{
+        "prefix": "tk-html-bt-navbar-dark",
+        "body": []
     }
 }
