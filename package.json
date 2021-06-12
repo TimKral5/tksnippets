@@ -1,5 +1,6 @@
 {
     "name": "tksnippets",
+    "author": {"name": "Tim Kral"},
     "displayName": "TkSnippets",
     "description": "Simple HTML Snippet generator",
     "version": "1.0.0",
