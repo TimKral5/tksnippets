@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <title>Pythagoras</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!--imports bootstrap and jquery-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+      .selected {
+        background-color: rgb(61, 61, 61);
+      }
+      .dropdown-menu li a {
+        color: white;
+      }
+      .dropdown-menu li a:hover {
+        background-color: rgb(100, 100, 100);
+        color: white;
+      }
+
+  </style>
+</head>
+<body style="background-color: rgb(30, 30, 30); width: 100%;">
+
+  <!--navbar containing header but no tabs-->
+  <!--(fixed on top of the page)-->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid" id="myNavbar">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar1">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="link-which-gets-opened-on-clickevent">navbar-brand</a>
+        <a class="navbar-brand" data-toggle="tab" href="#secret"> </a>
+      </div>     
+    </div>
+  </nav>
+
+    <br><br><br><br><br><br>
+
+  <!--empty navbar-->
+  <!--(fixed on the bottom of the page)-->
+  <nav class="navbar navbar-inverse navbar-fixed-bottom">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"></a>
+      </div>
+      <ul class="nav navbar-nav">
+      </ul>
+    </div>
+  </nav>
+
+  <!--panel-group containing a primary colored template-panel-->
+  <div id="tasks" class="container">
+    <div class="panel-group">
+      <div class="panel panel-primary">
+        <div class="panel-heading">panel-heading</div>
+        <div class="panel-body">
+          <h3>Panel-Content</h3>
+          <pre>pre-content</pre>
+        </div>
+      </div>
+      <br>
+    </div>
+  </div>
+
+  <br><br><br><br>
+  <br><br><br><br>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+    "Import Bootstrap and jquery": {
+        "prefix": "tk-html-bt-import",
+        "body": [
+            "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css\">",
+            "<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>",
+            "<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js\"></script>"
+        ],
+        "description": "imports Bootstrap and jquery"
+    },
+    "Bootstrap primary-panel": {
+        "prefix": "tk-html-bt-panel-primary",
+        "body": [
+            "<div class=\"panel panel-primary\">",
+            "    <div class=\"panel-heading\">panel-heading</div>",
+            "    <div class=\"panel-body\">",
+            "        ${TM_SELECTED_TEXT:panel-body}",
+            "    </div>",
+            "  </div>"
+        ],
+        "description": "Creates a primary-color Panel using Bootstrap and jquery"
+    }
+}
